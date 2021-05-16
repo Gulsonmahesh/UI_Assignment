@@ -1,0 +1,10 @@
+:host {
+  &::ng-deep {
+    img {
+      height: 40px !important;
+    }
+    .readmore:hover {
+      border: none !important;
+    }
+  }
+}
