@@ -1,0 +1,10 @@
+:host {
+    &::ng-deep {
+        .carousel-cells .carousel-cell img {
+            object-fit : cover !important;
+        }
+        .carousel-cell {
+            // width: 100% !important;
+        }
+    }
+}
