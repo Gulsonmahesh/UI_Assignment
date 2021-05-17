@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CarousalComponent } from './components/carousal/carousal.component';
 import { CardsComponent } from './components/cards/cards.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     CarousalComponent,
-    CardsComponent
+    CardsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -5,20 +5,26 @@
 @import 'tailwindcss/utilities';
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+html, body {
+font-family: 'Poppins';
+}
+
 .readmore {
   @apply border-2 p-2 border-blue-900 hover:text-white hover:bg-gray-900;
 }
 
 .post {
     li {
-    @apply md:text-left mb-3 sm:text-center;
+    @apply mb-3 text-center;
   }
 }
-* {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
+
+.stayblog {
+  @apply text-base;
 }
-html, body {
-  font-family: 'Poppins';
-}
+
